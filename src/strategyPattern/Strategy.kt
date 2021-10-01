@@ -1,0 +1,4 @@
+package strategyPattern
+
+interface Strategy {
+}
