@@ -8,3 +8,6 @@ fun <T> Collection<T>.removeIfExists(t: T)  : Collection<T>{
     }
     return this
 }
+
+
+fun <T> Collection<T>.notContains(t:T) : Boolean = this.contains(t).not()
