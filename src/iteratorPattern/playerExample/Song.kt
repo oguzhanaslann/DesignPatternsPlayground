@@ -1,4 +1,4 @@
-package iteratorPattern
+package iteratorPattern.playerExample
 
 data class Song(
     val name : String

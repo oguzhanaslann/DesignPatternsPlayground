@@ -1,4 +1,4 @@
-package iteratorPattern
+package iteratorPattern.playerExample
 
 class Player(
    private  val playlist: Playlist

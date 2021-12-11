@@ -1,4 +1,4 @@
-package iteratorPattern
+package iteratorPattern.playerExample
 
 class LinearSongListIterator(
     val list: List<Song>

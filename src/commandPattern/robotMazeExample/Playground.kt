@@ -15,11 +15,30 @@ fun main() {
         robotMazeTranslator = robotMazeTranslator,
         robotSymbol = '*'
     )
-    controller.program = listOf(
-        MoveUpCommand(robot),
-        MoveDownCommand(robot),
-        MoveLeftCommand(robot),
-        MoveRightCommand(robot),
+    controller.submitProgram(
+        listOf(
+            MoveUpCommand(robot),
+            MoveUpCommand(robot),
+            MoveRightCommand(robot),
+            MoveRightCommand(robot),
+            MoveRightCommand(robot),
+            MoveRightCommand(robot),
+            MoveDownCommand(robot),
+            MoveDownCommand(robot),
+            MoveDownCommand(robot),
+            MoveDownCommand(robot),
+            MoveDownCommand(robot),
+            MoveLeftCommand(robot),
+            MoveLeftCommand(robot),
+            MoveLeftCommand(robot),
+            MoveLeftCommand(robot),
+            MoveLeftCommand(robot),
+            MoveUpCommand(robot),
+            MoveUpCommand(robot),
+            MoveUpCommand(robot),
+            MoveUpCommand(robot),
+            MoveUpCommand(robot),
+        )
     )
 
 

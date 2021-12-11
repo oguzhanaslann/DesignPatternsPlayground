@@ -3,7 +3,7 @@ package commandPattern.robotMazeExample
 import commandPattern.robotMazeExample.commands.Command
 
 class ProgrammableRobotController {
-    var program = emptyList<Command>()
+    private var program = emptyList<Command>()
 
     fun submitProgram(
         program : List<Command>
