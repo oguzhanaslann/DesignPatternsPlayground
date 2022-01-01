@@ -1,7 +1,6 @@
-package strategyPattern
+package strategyPattern.calculatorExample
 
-import strategyPattern.exceptions.NotSupportedOperationException
-import utils.removeIfExists
+import strategyPattern.calculatorExample.exceptions.NotSupportedOperationException
 
 class Calculator(
     operations: List<OperationStrategy>

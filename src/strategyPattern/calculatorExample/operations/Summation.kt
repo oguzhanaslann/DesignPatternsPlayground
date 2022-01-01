@@ -1,6 +1,6 @@
-package strategyPattern.operations
+package strategyPattern.calculatorExample.operations
 
-import strategyPattern.OperationStrategy
+import strategyPattern.calculatorExample.OperationStrategy
 
 object Summation  : OperationStrategy {
 
