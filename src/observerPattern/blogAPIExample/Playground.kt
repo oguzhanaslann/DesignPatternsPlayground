@@ -1,5 +1,7 @@
-package observerPattern
+package observerPattern.blogAPIExample
 
+import observerPattern.Observer
+import observerPattern.State
 import java.util.*
 
 

@@ -1,4 +1,6 @@
-package observerPattern
+package observerPattern.blogAPIExample
+
+import observerPattern.Observer
 
 interface Publisher<T> {
     fun subscribe(observer: Observer<T>)

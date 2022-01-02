@@ -1,5 +1,7 @@
-package observerPattern
+package observerPattern.blogAPIExample
 
+import observerPattern.Observer
+import observerPattern.State
 import utils.notContains
 
 typealias BlogList = List<Blog>

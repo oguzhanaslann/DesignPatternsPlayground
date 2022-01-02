@@ -1,4 +1,4 @@
-package observerPattern
+package observerPattern.blogAPIExample
 
 abstract class Author(
     val id : String,

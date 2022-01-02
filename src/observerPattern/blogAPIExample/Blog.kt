@@ -1,4 +1,4 @@
-package observerPattern
+package observerPattern.blogAPIExample
 
 data class Blog(
     val title: String,

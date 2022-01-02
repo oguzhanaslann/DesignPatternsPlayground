@@ -1,4 +1,4 @@
-package observerPattern
+package observerPattern.blogAPIExample
 
 class NormalAuthor(
     id:String,
